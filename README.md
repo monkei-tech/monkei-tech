@@ -1,7 +1,7 @@
 # 🐒 Monkei
 
 <div align="center">
-  <img src="./image/logo-para-redes-socias.png" alt="Monkei Logo" width="200"/>
+  <img src="./image/imagem.png" alt="Monkei Logo" width="100"/>
   
   **A plataforma de pagamentos que revoluciona a forma de receber!**
 </div>
