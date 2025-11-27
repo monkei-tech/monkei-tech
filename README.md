@@ -3,74 +3,95 @@
 <div align="center">
   <img src="./image/imagem.png" alt="Monkei Logo" width="100"/>
   
-  **A plataforma de pagamentos que revoluciona a forma de receber!**
+  **Accept crypto payments made simple. PIX in Brazil, USDT and BTC everywhere.**
 </div>
 
 ---
 
-## 💡 O que é o Monkei?
+## 💡 What is Monkei?
 
-O **Monkei** é uma **plataforma de pagamentos inovadora** que simplifica a integração de múltiplas formas de pagamento em uma única API. Desenvolvido com tecnologia de ponta, oferecemos uma solução completa para empresas, SaaS e negócios digitais que querem facilitar o processo de recebimento.
+**Monkei** is a payment gateway born from our own frustration with overly complex payment solutions. We built what we wished existed: a **simple, unified API** that lets you accept cryptocurrency payments (BTC, USDT) and PIX without being a blockchain expert.
 
-Nossa missão é **democratizar o acesso a soluções de pagamento eficientes**, eliminando a complexidade técnica e os custos elevados da integração com múltiplos provedores.
+**Your money in USD₮ and BTC: Always liquid, always ready. No banks, no limits, no borders.**
 
-## 🚀 Por que escolher o Monkei?
+We believe that accepting payments shouldn't require a PhD in cryptography. That's why we've created an API that's intuitive, well-documented, and built by developers who understand what you actually need.
 
-Integrar pagamentos pode ser uma dor de cabeça. O **Monkei** nasce para resolver esse problema, oferecendo uma **API unificada** que conecta PIX, cartões e criptomoedas em uma única integração. Nosso foco é **facilitar pagamentos com tecnologia**, permitindo que empresas se concentrem no que realmente importa: crescer seus negócios.
+## 🚀 Why Monkei?
 
-## ⚡ Funcionalidades principais
+Traditional payment gateways make you jump through hoops. We cut through the noise:
 
-- 🔌 **API unificada** para múltiplas formas de pagamento
-- 💳 **Suporte completo**: PIX, cartões de crédito/débito e criptomoedas
-- 📊 **Dashboard em tempo real** para acompanhamento de transações
-- 📈 **Relatórios avançados** para análise de recebimentos
-- 🔒 **Segurança de ponta** com criptografia e conformidade PCI DSS
-- ⚡ **Webhooks em tempo real** para notificações instantâneas
-- 🛡️ **Proteção contra fraudes** com machine learning
-- 📱 **SDKs prontos** para múltiplas linguagens
+- ❌ **No extensive bureaucratic processes** - Start accepting payments today
+- ❌ **No confusing documentation** - Everything you need, clearly explained
+- ❌ **No multiple ways to do the same thing** - One API, one way, done right
+- ❌ **No crypto expertise required** - We handle the complexity, you focus on your product
 
-## 🛠️ Stack Tecnológico
+✅ **Just simple, fast, and reliable payments.**
 
-- **Backend**: Go
-- **Banco de dados**: PostgreSQL, Redis
-- **Infraestrutura**: Docker, Kubernetes
-- **Monitoramento**: Prometheus, Grafana
-- **Segurança**: JWT, OAuth 2.0, PCI DSS
-- **APIs**: RESTful, GraphQL, Webhooks
+## ⚡ Key Features
 
-## 📚 Documentação
+### 💳 Payment Methods
+- **PIX**: Instant Brazilian payment system with QR code generation
+- **USDT**: Tether stablecoin payments via Polygon blockchain
+- **Bitcoin (BTC)**: Bitcoin payments via Lightning Network
+- **Real-time conversion**: Live exchange rates for crypto transactions
 
-- [📖 Guia de Integração](link-para-docs)
-- [🔧 API Reference](link-para-api)
-- [🚀 Quick Start](link-para-quickstart)
-- [💳 SDKs Disponíveis](link-para-sdks)
-- [❓ FAQ](link-para-faq)
+### 🛒 Billing System
+- **Create bills** with multiple products
+- **Discount coupons** with percentage discounts
+- **One-time or multiple payments** billing options
+- **Transparent checkout** (coming soon)
 
-## 🚀 Integração Rápida
+### 💰 Withdrawals
+- **PIX withdrawals** to Brazilian bank accounts
+- **Crypto withdrawals** to external wallets (24/7 processing)
 
-```javascript
-// Exemplo de integração com Node.js
-const monkei = new MonkeiSDK('sua-api-key');
+### 📊 Account Management
+- **Real-time balance** tracking (available and hold balances)
+- **Transaction history** with detailed status tracking
+- **Webhook notifications** for instant payment updates
+- **Dashboard** for managing your account
 
-const payment = await monkei.createPayment({
-  amount: 100.00,
-  currency: 'BRL',
-  method: 'pix',
-  description: 'Pagamento teste'
-});
-```
+### 🔒 Security & Reliability
+- **API Key authentication** - Simple and secure
+- **Webhook signatures** with HMAC verification
+- **Idempotency keys** for safe retries
+- **Automatic retry system** with exponential backoff (5 attempts up to 1 hour)
 
-## 🌟 Junte-se à revolução dos pagamentos
+## 🛠️ Tech Stack
 
-Venha fazer parte da comunidade Monkei e ajude-nos a **revolucionar o mercado de soluções de pagamento** no Brasil!
+- **Backend**: Go 1.25
+- **Database**: PostgreSQL, Redis
+- **Blockchain**: Polygon (USDT), Lightning Network (BTC)
+- **Infrastructure**: Docker, AWS
+- **Event Processing**: AWS SNS/SQS, Redis
+- **APIs**: RESTful with webhooks
+
+## 📚 Documentation
+
+- [📖 Quick Start Guide](https://docs.monkei.co/quickstart) - Get up and running in 5 minutes
+- [🔧 API Reference](https://docs.monkei.co/api-reference) - Complete endpoint documentation
+- [💳 Transactions](https://docs.monkei.co/transactions/overview) - Payment processing guide
+- [🧾 Billing](https://docs.monkei.co/billing/overview) - Create and manage bills
+- [🎫 Coupons](https://docs.monkei.co/coupons/overview) - Discount coupon system
+- [💰 Withdrawals](https://docs.monkei.co/withdrawals/overview) - Withdraw funds guide
+- [🔔 Webhooks](https://docs.monkei.co/essentials/webhooks) - Real-time notifications
+- [📊 Dashboard](https://app.monkei.co) - Manage your account
+
+## 🌟 Join the Payment Revolution
+
+Monkei is your gateway to the future of payments. Whether you're building the next big thing or scaling your existing business, we've made accepting cryptocurrency payments as simple as accepting a credit card.
+
+**No banks, no limits, no borders. Just payments.**
 
 ---
 
-**Dúvidas?** Abra uma issue ou entre em contato conosco!
+**Questions?** Open an issue or contact us!
 
 <div align="center">
   
-  **Feito com ❤️ pela equipe Monkei**
+  **Made with ❤️ by the Monkei team**
   
-  [Website](https://monkei.io) • [Documentação](https://docs.monkei.io) • [Suporte](https://support.monkei.io)
+  [Website](https://monkei.co) • [Dashboard](https://app.monkei.co) • [Documentation](https://docs.monkei.co) • [Status](https://stats.uptimerobot.com/nAsS6FyoB3) • [Support](mailto:support@monkei.co)
+  
+  [GitHub](https://github.com/monkei-tech) • [Twitter](https://x.com/monkeioffcial) • [LinkedIn](https://linkedin.com/company/monkeitech)
 </div>
